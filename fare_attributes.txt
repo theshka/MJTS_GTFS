@@ -1,3 +1,12 @@
 fare_id,price,currency_type,payment_method,transfers,transfer_duration
-p,1.25,USD,0,0,
-a,5.25,USD,0,0,
+ADU,2.50,CAD,0,2,120
+STU,2.00,CAD,0,2,120
+SEN,2.00,CAD,0,2,120
+DAY,6.00,CAD,1,,
+ADU_M,65.00,CAD,1,,
+STU_M,52.50,CAD,1,,
+STU_M_ja,23.00,CAD,1,,
+SEN_M,33.00,CAD,1,,
+SEN_A, 180.00,CAD,1,,
+F_ADU_M,55.00,CAD,1,,
+F_STU_M,42.50,CAD,1,,
