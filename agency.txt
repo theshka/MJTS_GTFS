@@ -1,2 +1,0 @@
-agency_id,agency_name,agency_url,agency_timezone
-MJTS,City of Moose Jaw Transit Service,http://www.moosejaw.ca/?service=city-of-moose-jaw-transit-division,America/Regina

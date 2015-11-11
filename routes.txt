@@ -1,5 +1,0 @@
-route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
-ABE,MJTS,1,Athabasca East,Popular destinations via Route 1: Mall - Superstore - Wal-Mart - Trailer Courts - Hospital - A.E. Peacock Colligate,3,,00ff00,000000
-SUN,MJTS,2,Sunningdale,Popular destinations via Route 2: SIAST - Sportsplex - Mall - Vanier Collegiate,3,,ff8000,FFFFFF
-ABW,MJTS,3,Athabasca West,Popular destinations via Route 3: Pioneer Lodge - Central Collegiate,3,,0000ff,FFFFFF
-WES,MJTS,4,Westmount,Popular destinations via Route 4: South Hill Clinic - South Hill Mall - Extendicare - Riverview Collegiate,3,,ff00ff,000000
