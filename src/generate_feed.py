@@ -1,5 +1,6 @@
 # Import Google TransitFeed
 import transitfeed
+from transitfeed import ServicePeriod
 
 # Version
 mjts_version = "0.0.2"
@@ -11,19 +12,32 @@ schedule = transitfeed.Schedule()
 schedule.AddAgency("Moose Jaw Transit Service", "http://www.moosejaw.ca/?service=city-of-moose-jaw-transit-division",
                    "Canada/Saskatchewan")
 
-# Calendar
-## Default Period
-service_period = schedule.GetDefaultServicePeriod()
-service_period.SetStartDate("20151005")
-service_period.SetEndDate("20161005")
-### Monday - Friday
-service_period.SetWeekdayService(True)
-### Holidays/No Service Days
-service_period.SetDateHasService('20151224', False)
-service_period.SetDateHasService('20151225', False)
-service_period.SetDateHasService('20151226', False)
+# Calendars
+service_periods = []
 
-## Late-Night Service
+## Weekday
+service_periods.append(ServicePeriod(id="weekday"))
+service_periods[0].SetWeekdayService()
+service_periods[0].SetStartDate("20151005")
+service_periods[0].SetEndDate("20161005")
+### Holidays/No Service Days
+service_periods[0].SetDateHasService('20151224', False)
+service_periods[0].SetDateHasService('20151225', False)
+service_periods[0].SetDateHasService('20151226', False)
+
+## Saturday
+service_periods.append(ServicePeriod(id="saturday"))
+service_periods[1].SetDayOfWeekHasService(5)
+service_periods[1].SetStartDate("20151005")
+service_periods[1].SetEndDate("20161005")
+### Holidays/No Service Days
+service_periods[1].SetDateHasService('20151224', False)
+service_periods[1].SetDateHasService('20151225', False)
+service_periods[1].SetDateHasService('20151226', False)
+
+#Add all service period objects to the schedule
+schedule.SetDefaultServicePeriod(service_periods[0], validate=True)
+schedule.AddServicePeriodObject(service_periods[1], validate=True)
 
 # Fares
 
