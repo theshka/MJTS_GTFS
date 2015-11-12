@@ -10,7 +10,7 @@ schedule = transitfeed.Schedule()
 
 # Create Agency
 schedule.AddAgency("Moose Jaw Transit Service", "http://www.moosejaw.ca/?service=city-of-moose-jaw-transit-division",
-                   "Canada/Saskatchewan")
+                   "America/Regina")
 
 # Calendars
 service_periods = []
