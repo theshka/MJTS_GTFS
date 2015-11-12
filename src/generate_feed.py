@@ -94,9 +94,9 @@ abe_1034 = schedule.AddStop(lng=-105.532080, lat=50.391564, name = "High St. E @
 
 ## Sunningdale Stops
 sun_2001 = schedule.AddStop(lng=-105.534554, lat=50.391816, name = "Main St. N @ High St. W")
-sun_2002 = schedule.AddStop(lng=-105.534759, lat=50.395276, name = "Main St. N @ Athabasca St. E")
-sun_2003 = schedule.AddStop(lng=-105.534774, lat=50.396845, name = "Main St. N @ Caribou St. E")
-sun_2004 = schedule.AddStop(lng=-105.534674, lat=50.400857, name = "Main St. N @ Hall St. E")
+sun_2002 = schedule.AddStop(lng=-105.534547, lat=50.395128, name = "Main St. N @ Athabasca St. E")
+sun_2003 = schedule.AddStop(lng=-105.534606, lat=50.397097, name = "Main St. N @ Caribou St. E")
+sun_2004 = schedule.AddStop(lng=-105.534628, lat=50.400801, name = "Main St. N @ Hall St. E")
 sun_2005 = schedule.AddStop(lng=-105.532141, lat=50.404088, name = "Town & Country Dr. @ Civic Centre Dr.")
 sun_2006 = schedule.AddStop(lng=-105.534698, lat=50.406387, name = "Town & Country Dr. @ Main St. N")
 sun_2007 = schedule.AddStop(lng=-105.536385, lat=50.412762, name = "Thatcher Dr. W @ Main St. West Service Road")
@@ -123,12 +123,12 @@ sun_2027 = schedule.AddStop(lng=-105.545519, lat=50.404871, name = "MacDonald St
 sun_2028 = schedule.AddStop(lng=-105.542706, lat=50.404874, name = "MacDonald St. W @ 3rd Ave. NW")
 sun_2029 = schedule.AddStop(lng=-105.538524, lat=50.404879, name = "MacDonald St. W @ Redland Ave. NW")
 sun_2030 = schedule.AddStop(lng=-105.534626, lat=50.403219, name = "Main St. N @ Saskatchewan St. W")
-sun_2031 = schedule.AddStop(lng=-105.534670, lat=50.400563, name = "Main St. N @ Hall St. W")
-sun_2032 = schedule.AddStop(lng=-105.534612, lat=50.398858, name = "Main St. N @ Oxford St. W")
-sun_2033 = schedule.AddStop(lng=-105.534775, lat=50.397846, name = "Main St. N @ Ross St. W")
-sun_2034 = schedule.AddStop(lng=-105.534759, lat=50.395276, name = "Main St. N @ Athabasca St. W")
-sun_2035 = schedule.AddStop(lng=-105.534585, lat=50.394379, name = "Main St. N @ Stadacona St. W")
-sun_2036 = schedule.AddStop(lng=-105.534583, lat=50.393453, name = "Main St. N @ Ominica St. W")
+sun_2031 = schedule.AddStop(lng=-105.534832, lat=50.400466, name = "Main St. N @ Hall St. W")
+sun_2032 = schedule.AddStop(lng=-105.534842, lat=50.398715, name = "Main St. N @ Oxford St. W")
+sun_2033 = schedule.AddStop(lng=-105.534848, lat=50.397655, name = "Main St. N @ Ross St. W")
+sun_2034 = schedule.AddStop(lng=-105.534821, lat=50.395524, name = "Main St. N @ Athabasca St. W")
+sun_2035 = schedule.AddStop(lng=-105.534837, lat=50.394191, name = "Main St. N @ Stadacona St. W")
+sun_2036 = schedule.AddStop(lng=-105.534783, lat=50.391786, name = "Main St. N @ High St. W")
 
 ## Athabasca West Stops
 abw_3001 = schedule.AddStop(lng=-105.534557, lat=50.391898, name = "Main St. N @ High St. W")
