@@ -5,6 +5,3 @@ desktop.ini
 
 #Do not track generated output
 src/output/*
-
-#Except this version, I did by hand
-!src/output/mjts_gtfs_0.0.1.zip
