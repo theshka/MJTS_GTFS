@@ -226,50 +226,623 @@ wes_4048 = schedule.AddStop(lng=-105.529674, lat=50.391562, name = "High St. E @
 wes_4049 = schedule.AddStop(lng=-105.531760, lat=50.391626, name = "High St. E @ 1st Ave. NE")
 
 # Trips
-## ABE - 7:15:00
+##ABE Trip 1- 7:15:00 - Depart
 trip = ABE.AddTrip(schedule, headsign="To Downtown via Athabasca East")
-trip.AddStopTime(abe_1001, stop_time='7:15:00')
+trip.AddStopTime(abe_1001, stop_time='7:15:00')#timepoint
 trip.AddStopTime(abe_1002, stop_time='7:17:00')
 trip.AddStopTime(abe_1003, stop_time='7:17:30')
 trip.AddStopTime(abe_1004, stop_time='7:18:00')
 trip.AddStopTime(abe_1005, stop_time='7:18:30')
 trip.AddStopTime(abe_1006, stop_time='7:19:00')
-trip.AddStopTime(abe_1007, stop_time='7:20:00')
+trip.AddStopTime(abe_1007, stop_time='7:20:00')#timepoint
 trip.AddStopTime(abe_1008, stop_time='7:21:00')
 trip.AddStopTime(abe_1009, stop_time='7:22:00')
-trip.AddStopTime(abe_1010, stop_time='7:23:00')
+trip.AddStopTime(abe_1010, stop_time='7:23:00')#timepoint
 trip.AddStopTime(abe_1011, stop_time='7:24:00')
 trip.AddStopTime(abe_1012, stop_time='7:25:00')
 trip.AddStopTime(abe_1013, stop_time='7:27:00')
-trip.AddStopTime(abe_1014, stop_time='7:29:00')
-trip.AddStopTime(abe_1015, stop_time='7:35:00')
-trip.AddStopTime(abe_1016, stop_time='7:40:00')
+trip.AddStopTime(abe_1014, stop_time='7:29:00')#timepoint
+trip.AddStopTime(abe_1015, stop_time='7:35:00')#timepoint
+trip.AddStopTime(abe_1016, stop_time='7:40:00')#timepoint
 trip.AddStopTime(abe_1017, stop_time='7:41:00')
 trip.AddStopTime(abe_1018, stop_time='7:42:00')
 trip.AddStopTime(abe_1019, stop_time='7:42:30')
-trip.AddStopTime(abe_1020, stop_time='7:43:00')
+trip.AddStopTime(abe_1020, stop_time='7:43:00')#timepoint
 trip.AddStopTime(abe_1021, stop_time='7:43:30')
 trip.AddStopTime(abe_1022, stop_time='7:44:00')
 trip.AddStopTime(abe_1023, stop_time='7:44:30')
 trip.AddStopTime(abe_1024, stop_time='7:45:00')
 trip.AddStopTime(abe_1025, stop_time='7:45:30')
-trip.AddStopTime(abe_1026, stop_time='7:46:00')
+trip.AddStopTime(abe_1026, stop_time='7:46:00')#timepoint
 trip.AddStopTime(abe_1027, stop_time='7:46:30')
 trip.AddStopTime(abe_1028, stop_time='7:47:00')
 trip.AddStopTime(abe_1029, stop_time='7:47:30')
 trip.AddStopTime(abe_1030, stop_time='7:48:00')
 trip.AddStopTime(abe_1031, stop_time='7:48:30')
-trip.AddStopTime(abe_1032, stop_time='7:49:00')
+trip.AddStopTime(abe_1032, stop_time='7:49:00')#timepoint
 trip.AddStopTime(abe_1033, stop_time='7:49:30')
 trip.AddStopTime(abe_1034, stop_time='7:50:00')
-#7:55:00
-#8:35:00
-#9:15:00
-#9:55:00
-#10:35:00
-# ... add every trip throughout the day
+##ABE Trip 2 - 7:55:00 - Depart
+trip = ABE.AddTrip(schedule, headsign="To Downtown via Athabasca East")
+trip.AddStopTime(abe_1001, stop_time='7:55:00')#timepoint
+trip.AddStopTime(abe_1002, stop_time='7:55:30')
+trip.AddStopTime(abe_1003, stop_time='7:56:00')
+trip.AddStopTime(abe_1004, stop_time='7:57:00')
+trip.AddStopTime(abe_1005, stop_time='7:58:00')
+trip.AddStopTime(abe_1006, stop_time='7:59:00')
+trip.AddStopTime(abe_1007, stop_time='8:00:00')#timepoint
+trip.AddStopTime(abe_1008, stop_time='8:01:00')
+trip.AddStopTime(abe_1009, stop_time='8:02:00')
+trip.AddStopTime(abe_1010, stop_time='8:03:00')#timepoint
+trip.AddStopTime(abe_1011, stop_time='8:05:00')
+trip.AddStopTime(abe_1012, stop_time='8:07:00')
+trip.AddStopTime(abe_1013, stop_time='8:08:00')
+trip.AddStopTime(abe_1014, stop_time='8:09:00')#timepoint
+trip.AddStopTime(abe_1015, stop_time='8:15:00')#timepoint
+trip.AddStopTime(abe_1016, stop_time='8:20:00')#timepoint
+trip.AddStopTime(abe_1017, stop_time='8:20:30')
+trip.AddStopTime(abe_1018, stop_time='8:21:00')
+trip.AddStopTime(abe_1019, stop_time='8:22:00')
+trip.AddStopTime(abe_1020, stop_time='8:23:00')#timepoint
+trip.AddStopTime(abe_1021, stop_time='8:23:30')
+trip.AddStopTime(abe_1022, stop_time='8:24:00')
+trip.AddStopTime(abe_1023, stop_time='8:24:30')
+trip.AddStopTime(abe_1024, stop_time='8:25:00')
+trip.AddStopTime(abe_1025, stop_time='8:25:30')
+trip.AddStopTime(abe_1026, stop_time='8:26:00')#timepoint
+trip.AddStopTime(abe_1027, stop_time='8:26:30')
+trip.AddStopTime(abe_1028, stop_time='8:27:00')
+trip.AddStopTime(abe_1029, stop_time='8:28:00')
+trip.AddStopTime(abe_1030, stop_time='8:29:00')
+trip.AddStopTime(abe_1031, stop_time='8:30:00')
+trip.AddStopTime(abe_1032, stop_time='8:31:00')#timepoint
+trip.AddStopTime(abe_1033, stop_time='8:32:00')
+trip.AddStopTime(abe_1034, stop_time='8:33:00')
+##ABE Trip 3 - 8:35:00 - Depart
+trip = ABE.AddTrip(schedule, headsign="To Downtown via Athabasca East")
+trip.AddStopTime(abe_1001, stop_time='8:35:00')#timepoint
+trip.AddStopTime(abe_1002, stop_time='8:35:30')
+trip.AddStopTime(abe_1003, stop_time='8:36:00')
+trip.AddStopTime(abe_1004, stop_time='8:37:00')
+trip.AddStopTime(abe_1005, stop_time='8:38:00')
+trip.AddStopTime(abe_1006, stop_time='8:39:00')
+trip.AddStopTime(abe_1007, stop_time='8:40:00')#timepoint
+trip.AddStopTime(abe_1008, stop_time='8:41:00')
+trip.AddStopTime(abe_1009, stop_time='8:42:00')
+trip.AddStopTime(abe_1010, stop_time='8:43:00')#timepoint
+trip.AddStopTime(abe_1011, stop_time='8:44:00')
+trip.AddStopTime(abe_1012, stop_time='8:46:00')
+trip.AddStopTime(abe_1013, stop_time='8:47:30')
+trip.AddStopTime(abe_1014, stop_time='8:49:00')#timepoint
+trip.AddStopTime(abe_1015, stop_time='8:55:00')#timepoint
+trip.AddStopTime(abe_1016, stop_time='9:00:00')#timepoint
+trip.AddStopTime(abe_1017, stop_time='9:00:30')
+trip.AddStopTime(abe_1018, stop_time='9:01:00')
+trip.AddStopTime(abe_1019, stop_time='9:02:00')
+trip.AddStopTime(abe_1020, stop_time='9:03:00')#timepoint
+trip.AddStopTime(abe_1021, stop_time='9:03:30')
+trip.AddStopTime(abe_1022, stop_time='9:04:00')
+trip.AddStopTime(abe_1023, stop_time='9:04:30')
+trip.AddStopTime(abe_1024, stop_time='9:05:00')
+trip.AddStopTime(abe_1025, stop_time='9:05:30')
+trip.AddStopTime(abe_1026, stop_time='9:06:00')#timepoint
+trip.AddStopTime(abe_1027, stop_time='9:08:00')
+trip.AddStopTime(abe_1028, stop_time='9:09:00')
+trip.AddStopTime(abe_1029, stop_time='9:09:30')
+trip.AddStopTime(abe_1030, stop_time='9:10:00')
+trip.AddStopTime(abe_1031, stop_time='9:10:30')
+trip.AddStopTime(abe_1032, stop_time='9:11:00')#timepoint
+trip.AddStopTime(abe_1033, stop_time='9:12:00')
+trip.AddStopTime(abe_1034, stop_time='9:13:00')
+##ABE Trip 4 - 9:15:00 - Depart
+trip = ABE.AddTrip(schedule, headsign="To Downtown via Athabasca East")
+trip.AddStopTime(abe_1001, stop_time='9:15:00')#timepoint
+trip.AddStopTime(abe_1002, stop_time='9:17:00')
+trip.AddStopTime(abe_1003, stop_time='9:17:30')
+trip.AddStopTime(abe_1004, stop_time='9:18:00')
+trip.AddStopTime(abe_1005, stop_time='9:18:30')
+trip.AddStopTime(abe_1006, stop_time='9:19:00')
+trip.AddStopTime(abe_1007, stop_time='9:20:00')#timepoint
+trip.AddStopTime(abe_1008, stop_time='9:21:00')
+trip.AddStopTime(abe_1009, stop_time='9:22:00')
+trip.AddStopTime(abe_1010, stop_time='9:23:00')#timepoint
+trip.AddStopTime(abe_1011, stop_time='9:24:00')
+trip.AddStopTime(abe_1012, stop_time='9:25:00')
+trip.AddStopTime(abe_1013, stop_time='9:27:00')
+trip.AddStopTime(abe_1014, stop_time='9:29:00')#timepoint
+trip.AddStopTime(abe_1015, stop_time='9:35:00')#timepoint
+trip.AddStopTime(abe_1016, stop_time='9:40:00')#timepoint
+trip.AddStopTime(abe_1017, stop_time='9:41:00')
+trip.AddStopTime(abe_1018, stop_time='9:42:00')
+trip.AddStopTime(abe_1019, stop_time='9:42:30')
+trip.AddStopTime(abe_1020, stop_time='9:43:00')#timepoint
+trip.AddStopTime(abe_1021, stop_time='9:43:30')
+trip.AddStopTime(abe_1022, stop_time='9:44:00')
+trip.AddStopTime(abe_1023, stop_time='9:44:30')
+trip.AddStopTime(abe_1024, stop_time='9:45:00')
+trip.AddStopTime(abe_1025, stop_time='9:45:30')
+trip.AddStopTime(abe_1026, stop_time='9:46:00')#timepoint
+trip.AddStopTime(abe_1027, stop_time='9:46:30')
+trip.AddStopTime(abe_1028, stop_time='9:47:00')
+trip.AddStopTime(abe_1029, stop_time='9:47:30')
+trip.AddStopTime(abe_1030, stop_time='9:48:00')
+trip.AddStopTime(abe_1031, stop_time='9:48:30')
+trip.AddStopTime(abe_1032, stop_time='9:49:00')#timepoint
+trip.AddStopTime(abe_1033, stop_time='9:49:30')
+trip.AddStopTime(abe_1034, stop_time='9:50:00')
+##ABE Trip 5 - 9:55:00 - Depart
+trip = ABE.AddTrip(schedule, headsign="To Downtown via Athabasca East")
+trip.AddStopTime(abe_1001, stop_time='9:55:00')#timepoint
+trip.AddStopTime(abe_1002, stop_time='9:55:30')
+trip.AddStopTime(abe_1003, stop_time='9:56:00')
+trip.AddStopTime(abe_1004, stop_time='9:57:00')
+trip.AddStopTime(abe_1005, stop_time='9:58:00')
+trip.AddStopTime(abe_1006, stop_time='9:59:00')
+trip.AddStopTime(abe_1007, stop_time='10:00:00')#timepoint
+trip.AddStopTime(abe_1008, stop_time='10:01:00')
+trip.AddStopTime(abe_1009, stop_time='10:02:00')
+trip.AddStopTime(abe_1010, stop_time='10:03:00')#timepoint
+trip.AddStopTime(abe_1011, stop_time='10:05:00')
+trip.AddStopTime(abe_1012, stop_time='10:07:00')
+trip.AddStopTime(abe_1013, stop_time='10:08:00')
+trip.AddStopTime(abe_1014, stop_time='10:09:00')#timepoint
+trip.AddStopTime(abe_1015, stop_time='10:15:00')#timepoint
+trip.AddStopTime(abe_1016, stop_time='10:20:00')#timepoint
+trip.AddStopTime(abe_1017, stop_time='10:20:30')
+trip.AddStopTime(abe_1018, stop_time='10:21:00')
+trip.AddStopTime(abe_1019, stop_time='10:22:00')
+trip.AddStopTime(abe_1020, stop_time='10:23:00')#timepoint
+trip.AddStopTime(abe_1021, stop_time='10:23:30')
+trip.AddStopTime(abe_1022, stop_time='10:24:00')
+trip.AddStopTime(abe_1023, stop_time='10:24:30')
+trip.AddStopTime(abe_1024, stop_time='10:25:00')
+trip.AddStopTime(abe_1025, stop_time='10:25:30')
+trip.AddStopTime(abe_1026, stop_time='10:26:00')#timepoint
+trip.AddStopTime(abe_1027, stop_time='10:26:30')
+trip.AddStopTime(abe_1028, stop_time='10:27:00')
+trip.AddStopTime(abe_1029, stop_time='10:28:00')
+trip.AddStopTime(abe_1030, stop_time='10:29:00')
+trip.AddStopTime(abe_1031, stop_time='10:30:00')
+trip.AddStopTime(abe_1032, stop_time='10:31:00')#timepoint
+trip.AddStopTime(abe_1033, stop_time='10:32:00')
+trip.AddStopTime(abe_1034, stop_time='10:33:00')
+##ABE Trip 6 - 10:35:00 - Depart
+trip = ABE.AddTrip(schedule, headsign="To Downtown via Athabasca East")
+trip.AddStopTime(abe_1001, stop_time='10:35:00')#timepoint
+trip.AddStopTime(abe_1002, stop_time='10:35:30')
+trip.AddStopTime(abe_1003, stop_time='10:36:00')
+trip.AddStopTime(abe_1004, stop_time='10:37:00')
+trip.AddStopTime(abe_1005, stop_time='10:38:00')
+trip.AddStopTime(abe_1006, stop_time='10:39:00')
+trip.AddStopTime(abe_1007, stop_time='10:40:00')#timepoint
+trip.AddStopTime(abe_1008, stop_time='10:41:00')
+trip.AddStopTime(abe_1009, stop_time='10:42:00')
+trip.AddStopTime(abe_1010, stop_time='10:43:00')#timepoint
+trip.AddStopTime(abe_1011, stop_time='10:44:00')
+trip.AddStopTime(abe_1012, stop_time='10:46:00')
+trip.AddStopTime(abe_1013, stop_time='10:47:30')
+trip.AddStopTime(abe_1014, stop_time='10:49:00')#timepoint
+trip.AddStopTime(abe_1015, stop_time='10:55:00')#timepoint
+trip.AddStopTime(abe_1016, stop_time='11:00:00')#timepoint
+trip.AddStopTime(abe_1017, stop_time='11:00:30')
+trip.AddStopTime(abe_1018, stop_time='11:01:00')
+trip.AddStopTime(abe_1019, stop_time='11:02:00')
+trip.AddStopTime(abe_1020, stop_time='11:03:00')#timepoint
+trip.AddStopTime(abe_1021, stop_time='11:03:30')
+trip.AddStopTime(abe_1022, stop_time='11:04:00')
+trip.AddStopTime(abe_1023, stop_time='11:04:30')
+trip.AddStopTime(abe_1024, stop_time='11:05:00')
+trip.AddStopTime(abe_1025, stop_time='11:05:30')
+trip.AddStopTime(abe_1026, stop_time='11:06:00')#timepoint
+trip.AddStopTime(abe_1027, stop_time='11:08:00')
+trip.AddStopTime(abe_1028, stop_time='11:09:00')
+trip.AddStopTime(abe_1029, stop_time='11:09:30')
+trip.AddStopTime(abe_1030, stop_time='11:10:00')
+trip.AddStopTime(abe_1031, stop_time='11:10:30')
+trip.AddStopTime(abe_1032, stop_time='11:11:00')#timepoint
+trip.AddStopTime(abe_1033, stop_time='11:12:00')
+trip.AddStopTime(abe_1034, stop_time='11:13:00')
+##ABE Trip 7 - 11:15:00 - Depart
+trip = ABE.AddTrip(schedule, headsign="To Downtown via Athabasca East")
+trip.AddStopTime(abe_1001, stop_time='11:15:00')#timepoint
+trip.AddStopTime(abe_1002, stop_time='11:17:00')
+trip.AddStopTime(abe_1003, stop_time='11:17:30')
+trip.AddStopTime(abe_1004, stop_time='11:18:00')
+trip.AddStopTime(abe_1005, stop_time='11:18:30')
+trip.AddStopTime(abe_1006, stop_time='11:19:00')
+trip.AddStopTime(abe_1007, stop_time='11:20:00')#timepoint
+trip.AddStopTime(abe_1008, stop_time='11:21:00')
+trip.AddStopTime(abe_1009, stop_time='11:22:00')
+trip.AddStopTime(abe_1010, stop_time='11:23:00')#timepoint
+trip.AddStopTime(abe_1011, stop_time='11:24:00')
+trip.AddStopTime(abe_1012, stop_time='11:25:00')
+trip.AddStopTime(abe_1013, stop_time='11:27:00')
+trip.AddStopTime(abe_1014, stop_time='11:29:00')#timepoint
+trip.AddStopTime(abe_1015, stop_time='11:35:00')#timepoint
+trip.AddStopTime(abe_1016, stop_time='11:40:00')#timepoint
+trip.AddStopTime(abe_1017, stop_time='11:41:00')
+trip.AddStopTime(abe_1018, stop_time='11:42:00')
+trip.AddStopTime(abe_1019, stop_time='11:42:30')
+trip.AddStopTime(abe_1020, stop_time='11:43:00')#timepoint
+trip.AddStopTime(abe_1021, stop_time='11:43:30')
+trip.AddStopTime(abe_1022, stop_time='11:44:00')
+trip.AddStopTime(abe_1023, stop_time='11:44:30')
+trip.AddStopTime(abe_1024, stop_time='11:45:00')
+trip.AddStopTime(abe_1025, stop_time='11:45:30')
+trip.AddStopTime(abe_1026, stop_time='11:46:00')#timepoint
+trip.AddStopTime(abe_1027, stop_time='11:46:30')
+trip.AddStopTime(abe_1028, stop_time='11:47:00')
+trip.AddStopTime(abe_1029, stop_time='11:47:30')
+trip.AddStopTime(abe_1030, stop_time='11:48:00')
+trip.AddStopTime(abe_1031, stop_time='11:48:30')
+trip.AddStopTime(abe_1032, stop_time='11:49:00')#timepoint
+trip.AddStopTime(abe_1033, stop_time='11:49:30')
+trip.AddStopTime(abe_1034, stop_time='11:50:00')
+##ABE Trip 8 - 11:55:00 - Depart
+trip = ABE.AddTrip(schedule, headsign="To Downtown via Athabasca East")
+trip.AddStopTime(abe_1001, stop_time='11:55:00')#timepoint
+trip.AddStopTime(abe_1002, stop_time='11:55:30')
+trip.AddStopTime(abe_1003, stop_time='11:56:00')
+trip.AddStopTime(abe_1004, stop_time='11:57:00')
+trip.AddStopTime(abe_1005, stop_time='11:58:00')
+trip.AddStopTime(abe_1006, stop_time='11:59:00')
+trip.AddStopTime(abe_1007, stop_time='12:00:00')#timepoint
+trip.AddStopTime(abe_1008, stop_time='12:01:00')
+trip.AddStopTime(abe_1009, stop_time='12:02:00')
+trip.AddStopTime(abe_1010, stop_time='12:03:00')#timepoint
+trip.AddStopTime(abe_1011, stop_time='12:05:00')
+trip.AddStopTime(abe_1012, stop_time='12:07:00')
+trip.AddStopTime(abe_1013, stop_time='12:08:00')
+trip.AddStopTime(abe_1014, stop_time='12:09:00')#timepoint
+trip.AddStopTime(abe_1015, stop_time='12:15:00')#timepoint
+trip.AddStopTime(abe_1016, stop_time='12:20:00')#timepoint
+trip.AddStopTime(abe_1017, stop_time='12:20:30')
+trip.AddStopTime(abe_1018, stop_time='12:21:00')
+trip.AddStopTime(abe_1019, stop_time='12:22:00')
+trip.AddStopTime(abe_1020, stop_time='12:23:00')#timepoint
+trip.AddStopTime(abe_1021, stop_time='12:23:30')
+trip.AddStopTime(abe_1022, stop_time='12:24:00')
+trip.AddStopTime(abe_1023, stop_time='12:24:30')
+trip.AddStopTime(abe_1024, stop_time='12:25:00')
+trip.AddStopTime(abe_1025, stop_time='12:25:30')
+trip.AddStopTime(abe_1026, stop_time='12:26:00')#timepoint
+trip.AddStopTime(abe_1027, stop_time='12:26:30')
+trip.AddStopTime(abe_1028, stop_time='12:27:00')
+trip.AddStopTime(abe_1029, stop_time='12:28:00')
+trip.AddStopTime(abe_1030, stop_time='12:29:00')
+trip.AddStopTime(abe_1031, stop_time='12:30:00')
+trip.AddStopTime(abe_1032, stop_time='12:31:00')#timepoint
+trip.AddStopTime(abe_1033, stop_time='12:32:00')
+trip.AddStopTime(abe_1034, stop_time='12:33:00')
+##ABE Trip 9 - 12:35:00 - Depart
+trip = ABE.AddTrip(schedule, headsign="To Downtown via Athabasca East")
+trip.AddStopTime(abe_1001, stop_time='12:35:00')#timepoint
+trip.AddStopTime(abe_1002, stop_time='12:35:30')
+trip.AddStopTime(abe_1003, stop_time='12:36:00')
+trip.AddStopTime(abe_1004, stop_time='12:37:00')
+trip.AddStopTime(abe_1005, stop_time='12:38:00')
+trip.AddStopTime(abe_1006, stop_time='12:39:00')
+trip.AddStopTime(abe_1007, stop_time='12:40:00')#timepoint
+trip.AddStopTime(abe_1008, stop_time='12:41:00')
+trip.AddStopTime(abe_1009, stop_time='12:42:00')
+trip.AddStopTime(abe_1010, stop_time='12:43:00')#timepoint
+trip.AddStopTime(abe_1011, stop_time='12:44:00')
+trip.AddStopTime(abe_1012, stop_time='12:46:00')
+trip.AddStopTime(abe_1013, stop_time='12:47:30')
+trip.AddStopTime(abe_1014, stop_time='12:49:00')#timepoint
+trip.AddStopTime(abe_1015, stop_time='12:55:00')#timepoint
+trip.AddStopTime(abe_1016, stop_time='13:00:00')#timepoint
+trip.AddStopTime(abe_1017, stop_time='13:00:30')
+trip.AddStopTime(abe_1018, stop_time='13:01:00')
+trip.AddStopTime(abe_1019, stop_time='13:02:00')
+trip.AddStopTime(abe_1020, stop_time='13:03:00')#timepoint
+trip.AddStopTime(abe_1021, stop_time='13:03:30')
+trip.AddStopTime(abe_1022, stop_time='13:04:00')
+trip.AddStopTime(abe_1023, stop_time='13:04:30')
+trip.AddStopTime(abe_1024, stop_time='13:05:00')
+trip.AddStopTime(abe_1025, stop_time='13:05:30')
+trip.AddStopTime(abe_1026, stop_time='13:06:00')#timepoint
+trip.AddStopTime(abe_1027, stop_time='13:08:00')
+trip.AddStopTime(abe_1028, stop_time='13:09:00')
+trip.AddStopTime(abe_1029, stop_time='13:09:30')
+trip.AddStopTime(abe_1030, stop_time='13:10:00')
+trip.AddStopTime(abe_1031, stop_time='13:10:30')
+trip.AddStopTime(abe_1032, stop_time='13:11:00')#timepoint
+trip.AddStopTime(abe_1033, stop_time='13:12:00')
+trip.AddStopTime(abe_1034, stop_time='13:13:00')
+##ABE Trip 10 - 13:15:00 - Depart
+trip = ABE.AddTrip(schedule, headsign="To Downtown via Athabasca East")
+trip.AddStopTime(abe_1001, stop_time='13:15:00')#timepoint
+trip.AddStopTime(abe_1002, stop_time='13:17:00')
+trip.AddStopTime(abe_1003, stop_time='13:17:30')
+trip.AddStopTime(abe_1004, stop_time='13:18:00')
+trip.AddStopTime(abe_1005, stop_time='13:18:30')
+trip.AddStopTime(abe_1006, stop_time='13:19:00')
+trip.AddStopTime(abe_1007, stop_time='13:20:00')#timepoint
+trip.AddStopTime(abe_1008, stop_time='13:21:00')
+trip.AddStopTime(abe_1009, stop_time='13:22:00')
+trip.AddStopTime(abe_1010, stop_time='13:23:00')#timepoint
+trip.AddStopTime(abe_1011, stop_time='13:24:00')
+trip.AddStopTime(abe_1012, stop_time='13:25:00')
+trip.AddStopTime(abe_1013, stop_time='13:27:00')
+trip.AddStopTime(abe_1014, stop_time='13:29:00')#timepoint
+trip.AddStopTime(abe_1015, stop_time='13:35:00')#timepoint
+trip.AddStopTime(abe_1016, stop_time='13:40:00')#timepoint
+trip.AddStopTime(abe_1017, stop_time='13:41:00')
+trip.AddStopTime(abe_1018, stop_time='13:42:00')
+trip.AddStopTime(abe_1019, stop_time='13:42:30')
+trip.AddStopTime(abe_1020, stop_time='13:43:00')#timepoint
+trip.AddStopTime(abe_1021, stop_time='13:43:30')
+trip.AddStopTime(abe_1022, stop_time='13:44:00')
+trip.AddStopTime(abe_1023, stop_time='13:44:30')
+trip.AddStopTime(abe_1024, stop_time='13:45:00')
+trip.AddStopTime(abe_1025, stop_time='13:45:30')
+trip.AddStopTime(abe_1026, stop_time='13:46:00')#timepoint
+trip.AddStopTime(abe_1027, stop_time='13:46:30')
+trip.AddStopTime(abe_1028, stop_time='13:47:00')
+trip.AddStopTime(abe_1029, stop_time='13:47:30')
+trip.AddStopTime(abe_1030, stop_time='13:48:00')
+trip.AddStopTime(abe_1031, stop_time='13:48:30')
+trip.AddStopTime(abe_1032, stop_time='13:49:00')#timepoint
+trip.AddStopTime(abe_1033, stop_time='13:49:30')
+trip.AddStopTime(abe_1034, stop_time='13:50:00')
+##ABE Trip 11 - 13:55:00 - Depart
+trip = ABE.AddTrip(schedule, headsign="To Downtown via Athabasca East")
+trip.AddStopTime(abe_1001, stop_time='13:55:00')#timepoint
+trip.AddStopTime(abe_1002, stop_time='13:55:30')
+trip.AddStopTime(abe_1003, stop_time='13:56:00')
+trip.AddStopTime(abe_1004, stop_time='13:57:00')
+trip.AddStopTime(abe_1005, stop_time='13:58:00')
+trip.AddStopTime(abe_1006, stop_time='13:59:00')
+trip.AddStopTime(abe_1007, stop_time='14:00:00')#timepoint
+trip.AddStopTime(abe_1008, stop_time='14:01:00')
+trip.AddStopTime(abe_1009, stop_time='14:02:00')
+trip.AddStopTime(abe_1010, stop_time='14:03:00')#timepoint
+trip.AddStopTime(abe_1011, stop_time='14:05:00')
+trip.AddStopTime(abe_1012, stop_time='14:07:00')
+trip.AddStopTime(abe_1013, stop_time='14:08:00')
+trip.AddStopTime(abe_1014, stop_time='14:09:00')#timepoint
+trip.AddStopTime(abe_1015, stop_time='14:15:00')#timepoint
+trip.AddStopTime(abe_1016, stop_time='14:20:00')#timepoint
+trip.AddStopTime(abe_1017, stop_time='14:20:30')
+trip.AddStopTime(abe_1018, stop_time='14:21:00')
+trip.AddStopTime(abe_1019, stop_time='14:22:00')
+trip.AddStopTime(abe_1020, stop_time='14:23:00')#timepoint
+trip.AddStopTime(abe_1021, stop_time='14:23:30')
+trip.AddStopTime(abe_1022, stop_time='14:24:00')
+trip.AddStopTime(abe_1023, stop_time='14:24:30')
+trip.AddStopTime(abe_1024, stop_time='14:25:00')
+trip.AddStopTime(abe_1025, stop_time='14:25:30')
+trip.AddStopTime(abe_1026, stop_time='14:26:00')#timepoint
+trip.AddStopTime(abe_1027, stop_time='14:26:30')
+trip.AddStopTime(abe_1028, stop_time='14:27:00')
+trip.AddStopTime(abe_1029, stop_time='14:28:00')
+trip.AddStopTime(abe_1030, stop_time='14:29:00')
+trip.AddStopTime(abe_1031, stop_time='14:30:00')
+trip.AddStopTime(abe_1032, stop_time='14:31:00')#timepoint
+trip.AddStopTime(abe_1033, stop_time='14:32:00')
+trip.AddStopTime(abe_1034, stop_time='14:33:00')
+##ABE Trip 12 - 14:35:00 - Depart
+trip = ABE.AddTrip(schedule, headsign="To Downtown via Athabasca East")
+trip.AddStopTime(abe_1001, stop_time='14:35:00')#timepoint
+trip.AddStopTime(abe_1002, stop_time='14:35:30')
+trip.AddStopTime(abe_1003, stop_time='14:36:00')
+trip.AddStopTime(abe_1004, stop_time='14:37:00')
+trip.AddStopTime(abe_1005, stop_time='14:38:00')
+trip.AddStopTime(abe_1006, stop_time='14:39:00')
+trip.AddStopTime(abe_1007, stop_time='14:40:00')#timepoint
+trip.AddStopTime(abe_1008, stop_time='14:41:00')
+trip.AddStopTime(abe_1009, stop_time='14:42:00')
+trip.AddStopTime(abe_1010, stop_time='14:43:00')#timepoint
+trip.AddStopTime(abe_1011, stop_time='14:44:00')
+trip.AddStopTime(abe_1012, stop_time='14:46:00')
+trip.AddStopTime(abe_1013, stop_time='14:47:30')
+trip.AddStopTime(abe_1014, stop_time='14:49:00')#timepoint
+trip.AddStopTime(abe_1015, stop_time='14:55:00')#timepoint
+trip.AddStopTime(abe_1016, stop_time='15:00:00')#timepoint
+trip.AddStopTime(abe_1017, stop_time='15:00:30')
+trip.AddStopTime(abe_1018, stop_time='15:01:00')
+trip.AddStopTime(abe_1019, stop_time='15:02:00')
+trip.AddStopTime(abe_1020, stop_time='15:03:00')#timepoint
+trip.AddStopTime(abe_1021, stop_time='15:03:30')
+trip.AddStopTime(abe_1022, stop_time='15:04:00')
+trip.AddStopTime(abe_1023, stop_time='15:04:30')
+trip.AddStopTime(abe_1024, stop_time='15:05:00')
+trip.AddStopTime(abe_1025, stop_time='15:05:30')
+trip.AddStopTime(abe_1026, stop_time='15:06:00')#timepoint
+trip.AddStopTime(abe_1027, stop_time='15:08:00')
+trip.AddStopTime(abe_1028, stop_time='15:09:00')
+trip.AddStopTime(abe_1029, stop_time='15:09:30')
+trip.AddStopTime(abe_1030, stop_time='15:10:00')
+trip.AddStopTime(abe_1031, stop_time='15:10:30')
+trip.AddStopTime(abe_1032, stop_time='15:11:00')#timepoint
+trip.AddStopTime(abe_1033, stop_time='15:12:00')
+trip.AddStopTime(abe_1034, stop_time='15:13:00')
+##ABE Trip 13 - 15:15:00 - Depart
+trip = ABE.AddTrip(schedule, headsign="To Downtown via Athabasca East")
+trip.AddStopTime(abe_1001, stop_time='15:15:00')#timepoint
+trip.AddStopTime(abe_1002, stop_time='15:17:00')
+trip.AddStopTime(abe_1003, stop_time='15:17:30')
+trip.AddStopTime(abe_1004, stop_time='15:18:00')
+trip.AddStopTime(abe_1005, stop_time='15:18:30')
+trip.AddStopTime(abe_1006, stop_time='15:19:00')
+trip.AddStopTime(abe_1007, stop_time='15:20:00')#timepoint
+trip.AddStopTime(abe_1008, stop_time='15:21:00')
+trip.AddStopTime(abe_1009, stop_time='15:22:00')
+trip.AddStopTime(abe_1010, stop_time='15:23:00')#timepoint
+trip.AddStopTime(abe_1011, stop_time='15:24:00')
+trip.AddStopTime(abe_1012, stop_time='15:25:00')
+trip.AddStopTime(abe_1013, stop_time='15:27:00')
+trip.AddStopTime(abe_1014, stop_time='15:29:00')#timepoint
+trip.AddStopTime(abe_1015, stop_time='15:35:00')#timepoint
+trip.AddStopTime(abe_1016, stop_time='15:40:00')#timepoint
+trip.AddStopTime(abe_1017, stop_time='15:41:00')
+trip.AddStopTime(abe_1018, stop_time='15:42:00')
+trip.AddStopTime(abe_1019, stop_time='15:42:30')
+trip.AddStopTime(abe_1020, stop_time='15:43:00')#timepoint
+trip.AddStopTime(abe_1021, stop_time='15:43:30')
+trip.AddStopTime(abe_1022, stop_time='15:44:00')
+trip.AddStopTime(abe_1023, stop_time='15:44:30')
+trip.AddStopTime(abe_1024, stop_time='15:45:00')
+trip.AddStopTime(abe_1025, stop_time='15:45:30')
+trip.AddStopTime(abe_1026, stop_time='15:46:00')#timepoint
+trip.AddStopTime(abe_1027, stop_time='15:46:30')
+trip.AddStopTime(abe_1028, stop_time='15:47:00')
+trip.AddStopTime(abe_1029, stop_time='15:47:30')
+trip.AddStopTime(abe_1030, stop_time='15:48:00')
+trip.AddStopTime(abe_1031, stop_time='15:48:30')
+trip.AddStopTime(abe_1032, stop_time='15:49:00')#timepoint
+trip.AddStopTime(abe_1033, stop_time='15:49:30')
+trip.AddStopTime(abe_1034, stop_time='15:50:00')
+##ABE Trip 14 - 15:55:00 - Depart
+trip = ABE.AddTrip(schedule, headsign="To Downtown via Athabasca East")
+trip.AddStopTime(abe_1001, stop_time='15:55:00')#timepoint
+trip.AddStopTime(abe_1002, stop_time='15:55:30')
+trip.AddStopTime(abe_1003, stop_time='15:56:00')
+trip.AddStopTime(abe_1004, stop_time='15:57:00')
+trip.AddStopTime(abe_1005, stop_time='15:58:00')
+trip.AddStopTime(abe_1006, stop_time='15:59:00')
+trip.AddStopTime(abe_1007, stop_time='16:00:00')#timepoint
+trip.AddStopTime(abe_1008, stop_time='16:01:00')
+trip.AddStopTime(abe_1009, stop_time='16:02:00')
+trip.AddStopTime(abe_1010, stop_time='16:03:00')#timepoint
+trip.AddStopTime(abe_1011, stop_time='16:05:00')
+trip.AddStopTime(abe_1012, stop_time='16:07:00')
+trip.AddStopTime(abe_1013, stop_time='16:08:00')
+trip.AddStopTime(abe_1014, stop_time='16:09:00')#timepoint
+trip.AddStopTime(abe_1015, stop_time='16:15:00')#timepoint
+trip.AddStopTime(abe_1016, stop_time='16:20:00')#timepoint
+trip.AddStopTime(abe_1017, stop_time='16:20:30')
+trip.AddStopTime(abe_1018, stop_time='16:21:00')
+trip.AddStopTime(abe_1019, stop_time='16:22:00')
+trip.AddStopTime(abe_1020, stop_time='16:23:00')#timepoint
+trip.AddStopTime(abe_1021, stop_time='16:23:30')
+trip.AddStopTime(abe_1022, stop_time='16:24:00')
+trip.AddStopTime(abe_1023, stop_time='16:24:30')
+trip.AddStopTime(abe_1024, stop_time='16:25:00')
+trip.AddStopTime(abe_1025, stop_time='16:25:30')
+trip.AddStopTime(abe_1026, stop_time='16:26:00')#timepoint
+trip.AddStopTime(abe_1027, stop_time='16:26:30')
+trip.AddStopTime(abe_1028, stop_time='16:27:00')
+trip.AddStopTime(abe_1029, stop_time='16:28:00')
+trip.AddStopTime(abe_1030, stop_time='16:29:00')
+trip.AddStopTime(abe_1031, stop_time='16:30:00')
+trip.AddStopTime(abe_1032, stop_time='16:31:00')#timepoint
+trip.AddStopTime(abe_1033, stop_time='16:32:00')
+trip.AddStopTime(abe_1034, stop_time='16:33:00')
+##ABE Trip 15 - 16:35:00 - Depart
+trip = ABE.AddTrip(schedule, headsign="To Downtown via Athabasca East")
+trip.AddStopTime(abe_1001, stop_time='16:35:00')#timepoint
+trip.AddStopTime(abe_1002, stop_time='16:35:30')
+trip.AddStopTime(abe_1003, stop_time='16:36:00')
+trip.AddStopTime(abe_1004, stop_time='16:37:00')
+trip.AddStopTime(abe_1005, stop_time='16:38:00')
+trip.AddStopTime(abe_1006, stop_time='16:39:00')
+trip.AddStopTime(abe_1007, stop_time='16:40:00')#timepoint
+trip.AddStopTime(abe_1008, stop_time='16:41:00')
+trip.AddStopTime(abe_1009, stop_time='16:42:00')
+trip.AddStopTime(abe_1010, stop_time='16:43:00')#timepoint
+trip.AddStopTime(abe_1011, stop_time='16:44:00')
+trip.AddStopTime(abe_1012, stop_time='16:46:00')
+trip.AddStopTime(abe_1013, stop_time='16:47:30')
+trip.AddStopTime(abe_1014, stop_time='16:49:00')#timepoint
+trip.AddStopTime(abe_1015, stop_time='16:55:00')#timepoint
+trip.AddStopTime(abe_1016, stop_time='17:00:00')#timepoint
+trip.AddStopTime(abe_1017, stop_time='17:00:30')
+trip.AddStopTime(abe_1018, stop_time='17:01:00')
+trip.AddStopTime(abe_1019, stop_time='17:02:00')
+trip.AddStopTime(abe_1020, stop_time='17:03:00')#timepoint
+trip.AddStopTime(abe_1021, stop_time='17:03:30')
+trip.AddStopTime(abe_1022, stop_time='17:04:00')
+trip.AddStopTime(abe_1023, stop_time='17:04:30')
+trip.AddStopTime(abe_1024, stop_time='17:05:00')
+trip.AddStopTime(abe_1025, stop_time='17:05:30')
+trip.AddStopTime(abe_1026, stop_time='17:06:00')#timepoint
+trip.AddStopTime(abe_1027, stop_time='17:08:00')
+trip.AddStopTime(abe_1028, stop_time='17:09:00')
+trip.AddStopTime(abe_1029, stop_time='17:09:30')
+trip.AddStopTime(abe_1030, stop_time='17:10:00')
+trip.AddStopTime(abe_1031, stop_time='17:10:30')
+trip.AddStopTime(abe_1032, stop_time='17:11:00')#timepoint
+trip.AddStopTime(abe_1033, stop_time='17:12:00')
+trip.AddStopTime(abe_1034, stop_time='17:13:00')
+##ABE Trip 16 - 17:15:00 - Depart
+trip = ABE.AddTrip(schedule, headsign="To Downtown via Athabasca East")
+trip.AddStopTime(abe_1001, stop_time='17:15:00')#timepoint
+trip.AddStopTime(abe_1002, stop_time='17:17:00')
+trip.AddStopTime(abe_1003, stop_time='17:17:30')
+trip.AddStopTime(abe_1004, stop_time='17:18:00')
+trip.AddStopTime(abe_1005, stop_time='17:18:30')
+trip.AddStopTime(abe_1006, stop_time='17:19:00')
+trip.AddStopTime(abe_1007, stop_time='17:20:00')#timepoint
+trip.AddStopTime(abe_1008, stop_time='17:21:00')
+trip.AddStopTime(abe_1009, stop_time='17:22:00')
+trip.AddStopTime(abe_1010, stop_time='17:23:00')#timepoint
+trip.AddStopTime(abe_1011, stop_time='17:24:00')
+trip.AddStopTime(abe_1012, stop_time='17:25:00')
+trip.AddStopTime(abe_1013, stop_time='17:27:00')
+trip.AddStopTime(abe_1014, stop_time='17:29:00')#timepoint
+trip.AddStopTime(abe_1015, stop_time='17:35:00')#timepoint
+trip.AddStopTime(abe_1016, stop_time='17:40:00')#timepoint
+trip.AddStopTime(abe_1017, stop_time='17:41:00')
+trip.AddStopTime(abe_1018, stop_time='17:42:00')
+trip.AddStopTime(abe_1019, stop_time='17:42:30')
+trip.AddStopTime(abe_1020, stop_time='17:43:00')#timepoint
+trip.AddStopTime(abe_1021, stop_time='17:43:30')
+trip.AddStopTime(abe_1022, stop_time='17:44:00')
+trip.AddStopTime(abe_1023, stop_time='17:44:30')
+trip.AddStopTime(abe_1024, stop_time='17:45:00')
+trip.AddStopTime(abe_1025, stop_time='17:45:30')
+trip.AddStopTime(abe_1026, stop_time='17:46:00')#timepoint
+trip.AddStopTime(abe_1027, stop_time='17:46:30')
+trip.AddStopTime(abe_1028, stop_time='17:47:00')
+trip.AddStopTime(abe_1029, stop_time='17:47:30')
+trip.AddStopTime(abe_1030, stop_time='17:48:00')
+trip.AddStopTime(abe_1031, stop_time='17:48:30')
+trip.AddStopTime(abe_1032, stop_time='17:49:00')#timepoint
+trip.AddStopTime(abe_1033, stop_time='17:49:30')
+trip.AddStopTime(abe_1034, stop_time='17:50:00')
+##ABE Trip 17 - 17:55:00 - Depart
+trip = ABE.AddTrip(schedule, headsign="To Downtown via Athabasca East")
+trip.AddStopTime(abe_1001, stop_time='17:55:00')#timepoint
+trip.AddStopTime(abe_1002, stop_time='17:55:30')
+trip.AddStopTime(abe_1003, stop_time='17:56:00')
+trip.AddStopTime(abe_1004, stop_time='17:57:00')
+trip.AddStopTime(abe_1005, stop_time='17:58:00')
+trip.AddStopTime(abe_1006, stop_time='17:59:00')
+trip.AddStopTime(abe_1007, stop_time='18:00:00')#timepoint
+trip.AddStopTime(abe_1008, stop_time='18:01:00')
+trip.AddStopTime(abe_1009, stop_time='18:02:00')
+trip.AddStopTime(abe_1010, stop_time='18:03:00')#timepoint
+trip.AddStopTime(abe_1011, stop_time='18:05:00')
+trip.AddStopTime(abe_1012, stop_time='18:07:00')
+trip.AddStopTime(abe_1013, stop_time='18:08:00')
+trip.AddStopTime(abe_1014, stop_time='18:09:00')#timepoint
+trip.AddStopTime(abe_1015, stop_time='18:15:00')#timepoint
+trip.AddStopTime(abe_1016, stop_time='18:20:00')#timepoint
+trip.AddStopTime(abe_1017, stop_time='18:20:30')
+trip.AddStopTime(abe_1018, stop_time='18:21:00')
+trip.AddStopTime(abe_1019, stop_time='18:22:00')
+trip.AddStopTime(abe_1020, stop_time='18:23:00')#timepoint
+trip.AddStopTime(abe_1021, stop_time='18:23:30')
+trip.AddStopTime(abe_1022, stop_time='18:24:00')
+trip.AddStopTime(abe_1023, stop_time='18:24:30')
+trip.AddStopTime(abe_1024, stop_time='18:25:00')
+trip.AddStopTime(abe_1025, stop_time='18:25:30')
+trip.AddStopTime(abe_1026, stop_time='18:26:00')#timepoint
+trip.AddStopTime(abe_1027, stop_time='18:26:30')
+trip.AddStopTime(abe_1028, stop_time='18:27:00')
+trip.AddStopTime(abe_1029, stop_time='18:28:00')
+trip.AddStopTime(abe_1030, stop_time='18:29:00')
+trip.AddStopTime(abe_1031, stop_time='18:30:00')
+trip.AddStopTime(abe_1032, stop_time='18:31:00')#timepoint
+trip.AddStopTime(abe_1033, stop_time='18:32:00')
+trip.AddStopTime(abe_1034, stop_time='18:33:00')
+###ABE-Late Trip 1 - 18:35:00 - Depart
+###ABE-Late Trip 2 - 19:15:00 - Depart
 
-#SUN - 7:15:00
+
+#SUN Trip 1 - 7:15:00 - Depart
 trip = SUN.AddTrip(schedule, headsign="To Downtown via Sunningdale")
 trip.AddStopTime(sun_2001, stop_time='7:15:00')
 trip.AddStopTime(sun_2002, stop_time='7:16:00')
@@ -307,14 +880,25 @@ trip.AddStopTime(sun_2033, stop_time='7:47:00')
 trip.AddStopTime(sun_2034, stop_time='7:48:00')
 trip.AddStopTime(sun_2035, stop_time='7:49:00')
 trip.AddStopTime(sun_2036, stop_time='7:50:00')
-#7:55:00
-#8:35:00
-#9:15:00
-#9:55:00
-#10:35:00
-# ... add every trip throughout the day
+##SUN Trip 3 - 8:35:00 - Depart
+##SUN Trip 4 - 9:15:00 - Depart
+##SUN Trip 5 - 9:55:00 - Depart
+##SUN Trip 6 - 10:35:00 - Depart
+##SUN Trip 7 - 11:15:00 - Depart
+##SUN Trip 8 - 11:55:00 - Depart
+##SUN Trip 9 - 12:35:00 - Depart
+##SUN Trip 10 - 13:15:00 - Depart
+##SUN Trip 11 - 13:55:00 - Depart
+##SUN Trip 12 - 14:35:00 - Depart
+##SUN Trip 13 - 15:15:00 - Depart
+##SUN Trip 14 - 15:55:00 - Depart
+##SUN Trip 15 - 16:35:00 - Depart
+##SUN Trip 16 - 17:15:00 - Depart
+##SUN Trip 17 - 17:55:00 - Depart
+###SUN-Late Trip 1 - 18:35:00 - Depart
+###SUN-Late Trip 19 - 19:15:00 - Depart
 
-#ABW- 7:15:00
+#ABW Trip 1 - 7:15:00
 trip = ABW.AddTrip(schedule, headsign="To Downtown via Athabasca West")
 trip.AddStopTime(abw_3001, stop_time='7:15:00')
 trip.AddStopTime(abw_3002, stop_time='7:15:30')
@@ -358,14 +942,25 @@ trip.AddStopTime(abw_3039, stop_time='7:47:00')
 trip.AddStopTime(abw_3040, stop_time='7:48:00')
 trip.AddStopTime(abw_3041, stop_time='7:49:00')
 trip.AddStopTime(abw_3042, stop_time='7:50:00')
-#7:55:00
-#8:35:00
-#9:15:00
-#9:55:00
-#10:35:00
-# ... add every trip throughout the day
+##ABW Trip 3 - 8:35:00 - Depart
+##ABW Trip 4 - 9:15:00 - Depart
+##ABW Trip 5 - 9:55:00 - Depart
+##ABW Trip 6 - 10:35:00 - Depart
+##ABW Trip 7 - 11:15:00 - Depart
+##ABW Trip 8 - 11:55:00 - Depart
+##ABW Trip 9 - 12:35:00 - Depart
+##ABW Trip 10 - 13:15:00 - Depart
+##ABW Trip 11 - 13:55:00 - Depart
+##ABW Trip 12 - 14:35:00 - Depart
+##ABW Trip 13 - 15:15:00 - Depart
+##ABW Trip 14 - 15:55:00 - Depart
+##ABW Trip 15 - 16:35:00 - Depart
+##ABW Trip 16 - 17:15:00 - Depart
+##ABW Trip 17 - 17:55:00 - Depart
+###ABW-Late Trip 1 - 18:35:00 - Depart
+###ABW-Late Trip 2 - 19:15:00 - Depart
 
-#WES - 7:15:00
+#WES Trip 1 - 7:15:00 - Depart
 trip = WES.AddTrip(schedule, headsign="To Downtown via Westmount")
 trip.AddStopTime(wes_4001, stop_time='7:15:00')
 trip.AddStopTime(wes_4002, stop_time='7:16:00')
@@ -416,12 +1011,23 @@ trip.AddStopTime(wes_4046, stop_time='7:47:30')
 trip.AddStopTime(wes_4047, stop_time='7:48:00')
 trip.AddStopTime(wes_4048, stop_time='7:49:00')
 trip.AddStopTime(wes_4049, stop_time='7:50:00')
-#7:55:00
-#8:35:00
-#9:15:00
-#9:55:00
-#10:35:00
-# ... add every trip throughout the day
+##WES Trip 3 - 8:35:00 - Depart
+##WES Trip 4 - 9:15:00 - Depart
+##WES Trip 5 - 9:55:00 - Depart
+##WES Trip 6 - 10:35:00 - Depart
+##WES Trip 7 - 11:15:00 - Depart
+##WES Trip 8 - 11:55:00 - Depart
+##WES Trip 9 - 12:35:00 - Depart
+##WES Trip 10 - 13:15:00 - Depart
+##WES Trip 11 - 13:55:00 - Depart
+##WES Trip 12 - 14:35:00 - Depart
+##WES Trip 13 - 15:15:00 - Depart
+##WES Trip 14 - 15:55:00 - Depart
+##WES Trip 15 - 16:35:00 - Depart
+##WES Trip 16 - 17:15:00 - Depart
+##WES Trip 17 - 17:55:00 - Depart
+###WES-Late Trip 1 - 18:35:00 - Depart
+###WES-Late Trip 2 - 19:15:00 - Depart
 
 # Validate The Feed
 schedule.Validate()
